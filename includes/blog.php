@@ -25,6 +25,13 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<a href="#" class="nav-link px-2 sideMenuToggler">
+				<i class="fas fa-sliders-h icon"></i>
+			</a>
+			<form class="form-inline ml-auto">
+				<input class="form-control form-control-dark w-100 search" type="text" placeholder="Search" aria-label="Search">
+<!--				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+			</form>
 			<ul class="navbar-nav ml-auto">
 				<li>
 					<a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">
@@ -57,7 +64,7 @@
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a href="#" class="nav-link px-2">
-							<i class="fas fa-sliders-h icon"></i>
+							<i class="fas fa-chart-bar icon"></i>
 							<span class="text">Dashboard</span>
 						</a>
 					</li>
@@ -74,27 +81,21 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2">
+						<a href="../includes/blog.php" class="nav-link px-2">
 							<i class="fab fa-blogger-b icon"></i>
 							<span class="text">Blog</span></a>
 						<p>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2">
+						<a href="../includes/events_admin.php" class="nav-link px-2">
 							<i class="fas fa-calendar-alt icon"></i>
 							<span class="text">Events</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2">
+						<a href="../includes/faq_admin.php" class="nav-link px-2">
 							<i class="fas fa-question-circle icon"></i>
 							<span class="text">FAQ</span>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link px-2 sideMenuToggler">
-							<i class="fas fa-list icon"></i>
-							<span class="text">Hide Menu</span>
 						</a>
 					</li>
 				</ul>
@@ -106,102 +107,22 @@
 				<div class="container-fluid">
 
 					<div class="row">
-						<table class="table-hover">
-        <thead>
-            <tr>
-                <th>Ticker</th>
-                <th>Company</th>
-                <th>Shares</th>
-                <th>Price</th>
-                <th>Initial Value</th>
-                <th>Market Value</th>
-                <th>P/L</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-            <tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-			<tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-			<tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-			<tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-			<tr>
-                <td>APPL</td>
-                <td>Apple Inc</td>
-                <td>10</td>
-                <td>$154.3</td>
-                <td>$1000</td>
-                <td>$2000</td>
-                <td>$1000</td>
-            </tr>
-        </tbody>
-    </table>
+						<div class="col-md-4">
+							<div class="bg-mattBlackLight my-2 p-3">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Ratione libero totam rerum eos nam ab perspiciatis voluptatum
+								in. Quidem natus autem quae. Velit accusamus sit, perspiciatis
+								sunt earum tempora veniam.
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="bg-mattBlackLight my-2 p-3">
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Ratione libero totam rerum eos nam ab perspiciatis voluptatum
+								in. Quidem natus autem quae. Velit accusamus sit, perspiciatis
+								sunt earum tempora veniam.
+							</div>
+						</div>
 					</div>
 				</div>
 			</main>

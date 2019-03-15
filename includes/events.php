@@ -1,5 +1,5 @@
 <?php
-include "../../PHPProjectStock/stock/includes/header.php";
+include "../includes/header.php";
 ?>
 <link rel="stylesheet" href="../css/eventstyle.css">
 
@@ -35,4 +35,4 @@ include "../../PHPProjectStock/stock/includes/header.php";
 </main>
 
 <?php
-include "../../PHPProjectStock/stock/includes/footer.php";
+include "../includes/footer.php";

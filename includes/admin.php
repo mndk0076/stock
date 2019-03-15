@@ -87,13 +87,13 @@
 						<p>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2">
+						<a href="../includes/events_admin.php" class="nav-link px-2">
 							<i class="fas fa-calendar-alt icon"></i>
 							<span class="text">Events</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2">
+						<a href="../includes/faq_admin.php" class="nav-link px-2">
 							<i class="fas fa-question-circle icon"></i>
 							<span class="text">FAQ</span>
 						</a>
