@@ -1,100 +1,38 @@
+<?php
+include "../../PHPProjectStock/stock/includes/header.php";
+?>
+<link rel="stylesheet" href="../css/eventstyle.css">
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<main id="main">
 
-    <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="../css/bootstrap-4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/dashboard.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-	
-  <body>
-  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-	  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">STOCK MARKET</a>
-	  <input class="form-control form-control-dark w-100 mr-auto" type="text" placeholder="Search" aria-label="Search">
+<div class="IndEvent"> <!--Individual Event-->
+    <img class="eventPhoto" src="../images/defaultimage.png" alt="event Photo"/>
 
-	  <div class="dropdown">
-		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			Welcome Back Admin!
-		  </button>
-		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" href="#">Username</a>
-			<a class="dropdown-item" href="#">Settings</a>
-			<a class="dropdown-item" href="#">Signout</a>
-		  </div>
-	 </div>
- </nav>
+    <h1>Our Upcoming Events</h1>
 
-<div class="container-fluid">
-  <div class="row">
-    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-      <div class="sidebar-sticky">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">
-              <span data-feather="home"></span>
-              Dashboard <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../includes/users.php">
-              <span data-feather="file"></span>
-              Users
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="..//includes/messages.php">
-              <span data-feather="shopping-cart"></span>
-              Messages
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../includes/events.php">
-              <span data-feather="users"></span>
-              Events
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../includes/blog.php">
-              <span data-feather="bar-chart-2"></span>
-              Blog
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../includes/faq.php">
-              <span data-feather="layers"></span>
-              FAQ
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Dashboard</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group mr-2">
-            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
-            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
-          </div>
-          <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
-            <span data-feather="calendar"></span>
-            This week
-          </button>
-        </div>
-      </div>
-
-      <h2>Events</h2>
-    
-    </main>
-  </div>
+    <h2>Event Title</h2>
+    <div class="description">
+    <p>Event Description Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Integer nec diam orci. Fusce at metus feugiat, faucibus nibh vitae, molestie erat. 
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam maximus id odio quis 
+        sollicitudin. Curabitur pulvinar odio ex, ac sollicitudin lectus tempus id. Donec non 
+        consectetur enim, eu iaculis sapien. Sed sollicitudin placerat eleifend. Donec sit amet
+        mauris id tellus suscipit iaculis at ac nisl. Ut elementum ante sit amet porttitor auctor.
+        Pellentesque semper ante sit amet enim auctor, quis tempor neque tempus. Proin lobortis 
+        nunc eget egestas molestie. Cras congue sagittis pellentesque. 
+        Donec eget laoreet dui. Etiam eleifend, ex a suscipit lacinia, nisi leo ullamcorper nisi, 
+    at cursus tellus mi consequat nisl.</p>
+    </div>
+    <p>Event Date and Time</p>
+     
+    <p>At this location</p>
 </div>
-<script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-	</body>
-</html>
+
+
+
+   
+
+</main>
+
+<?php
+include "../../PHPProjectStock/stock/includes/footer.php";
